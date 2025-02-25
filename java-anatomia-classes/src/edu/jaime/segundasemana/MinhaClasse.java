@@ -1,8 +1,9 @@
 package edu.jaime.segundasemana;
+
 public class MinhaClasse {
 
-    public static void main(String [] args){
-        
+    public static void main(String[] args) {
+
         int ano = 2021;
         ano = 2022;
 
@@ -12,7 +13,7 @@ public class MinhaClasse {
         final String BR = "Brasil";
         final int ESTADOS_BRASILEIROS = 27;
 
-        //BR = "Brail";
+        // BR = "Brail";
 
         String priNome = "Jaime";
         String segNome = "Honorato";
@@ -23,9 +24,9 @@ public class MinhaClasse {
 
     // declarando um metodo
 
-    public static String nomeCompleto (String primeiroNome, String segundoNome){
+    public static String nomeCompleto(String primeiroNome, String segundoNome) {
         return primeiroNome.concat(" ").concat(segundoNome);
-        
+
     }
-    
+
 }
