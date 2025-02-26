@@ -1,6 +1,6 @@
 public class SmartTv {
     boolean ligada = false;
-    int canal = 2;
+    int canal = 9;
     int volume = 10;
 
     public void ligar() {
